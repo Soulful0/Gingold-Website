@@ -1,0 +1,82 @@
+/* DESIGN FOR PHONES FIRST!!! */
+
+/* Navigation */
+.full-nav-framer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  padding: 40px 40px 30px 40px;
+}
+
+.home-nav {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.home-nav:link,
+.home-nav:visited {
+  color: #222;
+  font-weight: 800;
+  transition: all 0.3s;
+}
+
+.home-nav:hover,
+.home-nav:active {
+  color: #222222ea;
+  text-shadow: -1rem 0.6rem 2.4rem rgba(0, 0, 0, 0.15);
+}
+
+.nav-framer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-el {
+  list-style: none;
+
+  font-size: 1.6rem;
+}
+
+.nav-style:link,
+.nav-style:visited {
+  color: #333;
+  font-weight: 300;
+  transition: all 0.3s;
+}
+
+.nav-style:hover,
+.nav-style:active {
+  color: #f1a208;
+  text-shadow: 0.8rem 0.2rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.header-img {
+  width: 20vw;
+}
+
+.udemy-img {
+  width: 30vw;
+}
+
+/* Hero */
+
+.hero-framer {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-img {
+  align-self: center;
+  padding: 0.6rem;
+}
+
+.header-brief {
+  align-self: center;
+  padding: 0.4rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+}

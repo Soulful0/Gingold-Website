@@ -1,0 +1,28 @@
+@media (max-width: 21em) {
+  .full-nav-framer {
+    flex-direction: column;
+    row-gap: 1.2rem;
+    padding: 20px 20px 10px 20px;
+  }
+
+  .home-nav {
+    font-size: 2rem;
+  }
+
+  .nav-el {
+    font-size: 1.2rem;
+  }
+
+  .header-img {
+    width: 40vw;
+  }
+
+  .header-brief {
+    font-size: 0.9rem;
+    width: 150px;
+    text-align: center;
+    line-height: 1.1rem;
+    padding: 0;
+    padding-bottom: 0.4rem;
+  }
+}
