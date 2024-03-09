@@ -45,6 +45,7 @@ Large: 1.8
 #037D7A
 #06A77D
 #F1A208
+
 - Greys
 
 
@@ -63,8 +64,7 @@ Medium:
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
-
-
+#f0eee9
 
 
 
@@ -98,6 +98,17 @@ a {
   text-decoration: none;
 }
 
-/* #About {
-  background-color: #74c1fb;
-} */
+#Home {
+  /* background-color: #dcd6cc; */
+  background-color: #f0eee9;
+
+  /* background-color: #ac9f8e; */
+}
+
+#About {
+  background-color: #f0eee9;
+}
+
+.break-design {
+  background-color: #f0eee9;
+}
