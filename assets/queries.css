@@ -1,4 +1,5 @@
 @media (max-width: 21em) {
+  /* Section 1 */
   .full-nav-framer {
     flex-direction: column;
     row-gap: 1.2rem;
@@ -13,8 +14,12 @@
     font-size: 1.2rem;
   }
 
+  .hero-framer {
+    row-gap: 5px;
+  }
+
   .header-img {
-    width: 40vw;
+    width: 45vw;
   }
 
   .header-brief {
@@ -24,5 +29,40 @@
     line-height: 1.1rem;
     padding: 0;
     padding-bottom: 0.4rem;
+  }
+
+  /* Design Break */
+  .break-design {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Section 2 */
+  .outside-img {
+    width: 75vw;
+    justify-self: center;
+  }
+
+  .full-about-framer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-framer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h2-el {
+    text-align: center;
+    font-size: 7.2rem;
+    padding: 1rem;
+  }
+
+  .about-info {
+    font-size: 1.82rem;
+    line-height: 24px;
+    letter-spacing: -0.6px;
   }
 }

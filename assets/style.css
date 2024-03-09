@@ -13,6 +13,7 @@
 .home-nav {
   font-size: 3.6rem;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 .home-nav:link,
@@ -25,7 +26,7 @@
 .home-nav:hover,
 .home-nav:active {
   color: #222222ea;
-  text-shadow: -1rem 0.6rem 2.4rem rgba(0, 0, 0, 0.15);
+  text-shadow: -1rem 0.6rem 2.4rem rgba(0, 0, 0, 0.1);
 }
 
 .nav-framer {
@@ -50,11 +51,11 @@
 .nav-style:hover,
 .nav-style:active {
   color: #f1a208;
-  text-shadow: 0.8rem 0.2rem 1rem rgba(0, 0, 0, 0.2);
+  text-shadow: 0.8rem 0.2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .header-img {
-  width: 20vw;
+  width: 35vw;
 }
 
 .udemy-img {
@@ -79,4 +80,63 @@
 
   font-weight: 700;
   font-size: 1.4rem;
+}
+
+/* Break Design */
+
+.break-design {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* About */
+
+.outside-img {
+  width: 30vw;
+  justify-self: center;
+}
+
+.grey-section {
+  margin-top: 55px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.full-about-framer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 35px;
+}
+
+.about-framer {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2-el {
+  font-size: 8rem;
+  font-weight: 600;
+  letter-spacing: -3.5px;
+
+  padding: 2rem;
+}
+
+.about-info {
+  font-size: 2.2rem;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+
+  padding: 0.8rem;
+}
+
+.outside-img {
+  border-radius: 5px;
 }
